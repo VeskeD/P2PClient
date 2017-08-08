@@ -142,7 +142,7 @@ public class P2PClient {
         }
 
         private class Message_Listener implements Runnable {
-
+            //Port Listener that will receive all data
             @Override
             public void run() {
                 byte[] buffer = new byte[1024];
